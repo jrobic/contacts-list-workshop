@@ -1,0 +1,30 @@
+{
+  "name": "contacts-list-workshop",
+  "version": "0.1.0",
+  "description": "Javascript Workshop - Contact List",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-eslint": "^6.1.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-es2015-classes": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "eslint": "^3.0.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-friendly-formatter": "^2.0.5",
+    "eslint-loader": "^1.4.1",
+    "eslint-plugin-import": "^1.10.2",
+    "eslint-plugin-jsx-a11y": "^1.5.5",
+    "eslint-plugin-react": "^5.2.2",
+    "http-server": "^0.9.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config ./webpack.config.js --progress --colors --content-base ./dist --hot --inline"
+  },
+  "author": "Jonathan Robic <hello@jonathanrobic.fr>",
+  "license": "MIT"
+}
