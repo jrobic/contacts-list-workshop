@@ -1,0 +1,19 @@
+{
+  "name": "contacts-list-workshop",
+  "version": "0.1.0",
+  "description": "Javascript Workshop - Contact List",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.4"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/http-server ./ -p 8080"
+  },
+  "author": "Jonathan Robic <hello@jonathanrobic.fr>",
+  "license": "MIT"
+}
