@@ -29,3 +29,13 @@ npm start
 ```
 
 * That app is served on port 8080
+
+
+# Links
+
+- ES6: https://ponyfoo.com/articles/es6
+- ES6 Learning: https://github.com/ericdouglas/ES6-Learning
+- Module pattern: https://toddmotto.com/mastering-the-module-pattern/
+- Hoisting: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
+- Closure: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+- this keyword: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
