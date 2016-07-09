@@ -115,7 +115,7 @@
 
   this.removeContact = function removeContact(contact) {
     var index = this.contacts.indexOf(contact);
-    this.contacts.slice(index, 1);
+    this.contacts = this.contacts.slice(index, 1);
     this.removeContactElement(contact.uid);
   }
 
