@@ -7,7 +7,6 @@ class App {
     this.contacts = [];
     this.selectedContact = null;
     this.api = new Api();
-
     this.attachEvents();
   }
 
@@ -115,7 +114,7 @@ class App {
 
   removeContact(contact) {
     const index = this.contacts.indexOf(contact);
-    this.contacts.slice(index, 1);
+    this.contacts = this.contacts.slice(index, 1);
     this.removeContactElement(contact.uid);
   }
 
