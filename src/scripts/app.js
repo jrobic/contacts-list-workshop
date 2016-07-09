@@ -68,7 +68,7 @@
     });
   }
 
-  this.cleanForm() {
+  this.cleanForm = function cleanForm() {
     this.selectedContact = null;
 
     var form = document.querySelector('.form-contact');
